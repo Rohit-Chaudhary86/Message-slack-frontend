@@ -1,5 +1,6 @@
+import { useEffect,useState } from "react"
+
 import { Button } from "@/components/ui/button"
-import { useState, useEffect } from "react"
 
 function App() {
   const [count, setCount] = useState(
@@ -28,4 +29,4 @@ function App() {
   )
 }
 
-export default App
+export default App;
